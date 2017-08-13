@@ -50,7 +50,7 @@ var openRandomNote = function (userData) {
                 return false;
             });
             
-            var randomNoteIndex = getRandomInt(0, totalNoteCount-1);
+            var randomNoteIndex = getRandomInt(0, totalNoteCount);
             
             var correctNotebook = null;
             var noteCounterToFindCorrectNotebook = 0;

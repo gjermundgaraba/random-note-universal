@@ -88,7 +88,7 @@ var openRandomNote = function (userData) {
                     console.log(err);
                     throw err;
                 }
-                opn("evernote:///view/" + userId + "/" + shard + "/" + notesMetaDataList.notes[0].guid + "/" + notesMetaDataList.notes[0].guid);
+                opn("evernote:///view/" + userId + "/" + shard + "/" + notesMetaDataList.notes[0].guid + "/" + notesMetaDataList.notes[0].guid + "/");
             });
         });
     });

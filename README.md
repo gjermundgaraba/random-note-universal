@@ -35,7 +35,7 @@ $ npm install
 ## Run the development app
 
 ```
-$ npm install
+$ npm start
 ```
 
 # Build
